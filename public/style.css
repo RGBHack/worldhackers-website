@@ -3,6 +3,7 @@ body {
   color: #15233d;
   font-family: "Roboto", sans-serif !important;
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 footer {
