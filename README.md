@@ -10,7 +10,7 @@
 
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/Version-1.0-red.svg" />
-  <img alt="License: MIT" src="https://img.shields.io/badge/License-GPLv3-orange.svg" />
+  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-orange.svg" />
   <img alt="Made with HTML/CSS" src="https://img.shields.io/badge/Made%20with-HTML/CSS-yellow.svg" />
   <img alt="Maintained" src="https://img.shields.io/badge/Maintained-Yes-brightgreen.svg">
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-Welcome-blue.svg">
