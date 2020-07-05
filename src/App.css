@@ -1,0 +1,36 @@
+.box {
+  margin-bottom: 4rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff8200;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8200;
+}
+
+.shadow-rounded {
+  border-radius: 20px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  margin: 1rem;
+  height: 500px;
+  overflow: auto;
+}
+
+.shadow-rounded-mini {
+  border-radius: 20px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  height: 500px;
+  overflow: auto;
+}

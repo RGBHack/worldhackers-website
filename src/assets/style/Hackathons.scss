@@ -1,0 +1,22 @@
+.inside-div {
+  margin: 1.5rem 1rem;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.table-titles td {
+  color: #ff8200 !important;
+}
+
+td {
+  color: #15233d;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #cecece;
+}
+
+thead {
+  background-color: #15233d;
+}
