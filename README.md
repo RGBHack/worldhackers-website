@@ -29,8 +29,9 @@
 
 ```sh
 git clone https://github.com/rgbhack/worldhackers-website.git
-Run index.html in public folder
+See index.html in public folder
 ```
+or go to [https://worldhackers.ml](https://worldhackers.ml)
 
 ## 👨‍💻 Authors
 
