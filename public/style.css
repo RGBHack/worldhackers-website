@@ -1,0 +1,262 @@
+html,
+body {
+  color: #15233d;
+  font-family: "Roboto", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+footer {
+  margin: 3rem 0;
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.nav-link {
+  color: #15233d !important;
+  font-size: 30px !important;
+  font-family: "Roboto", sans-serif !important;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  color: #15233d !important;
+  font-size: 30px !important;
+  font-family: "Roboto", sans-serif !important;
+  text-decoration: underline !important;
+  text-decoration-color: #ff8200 !important;
+}
+
+.active,
+.active,
+.nav-link a:hover {
+  color: #15233d !important;
+  font-size: 30px !important;
+  font-family: "Roboto", sans-serif !important;
+  text-decoration: underline !important;
+  text-decoration-color: #ff8200 !important;
+}
+
+.main-top {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-top object {
+  display: inline-block;
+  margin: 15px auto;
+  width: 150px;
+}
+
+.main-top h1 {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  font-size: 4rem;
+}
+
+.main-top p {
+  color: #ff8200;
+  font-style: italic;
+  font-weight: 500;
+}
+
+#hackathons {
+  height: 100px;
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  text-decoration-color: #ff8200;
+}
+
+.hackathons {
+  border-radius: 20px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  height: 500px;
+  overflow: auto;
+  margin-bottom: 2rem;
+}
+
+#projects {
+  height: 100px;
+  margin-top: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  text-decoration-color: #ff8200;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.project-item {
+  padding: 1.5rem;
+  width: 530px;
+  height: 230px;
+  margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  position: relative;
+}
+
+.project-item h1 {
+  color: #ff8200;
+  font-size: 1.5rem;
+}
+
+.project-item img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateX(-10px) translateY(-10px);
+  transition: all 0.5s;
+}
+
+.project-item img:hover {
+  transform: translateX(-15px) translateY(-15px);
+}
+
+#team {
+  height: 100px;
+  margin-top: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  text-decoration-color: #ff8200;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.team-item {
+  padding: 1.5rem;
+  width: 250px;
+  height: 400px;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  position: relative;
+  text-align: center;
+}
+
+.team-item h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.team-item h3 {
+  font-size: 1rem;
+  color: #ff8200;
+  font-weight: 500;
+}
+
+.team-image {
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.table-titles td {
+  color: #ff8200 !important;
+}
+
+.social {
+  width: 30px;
+  margin: 5px;
+  transition: all 0.5s;
+}
+
+.social:hover {
+  transform: translateY(-5px);
+}
+
+.upHover {
+  transition: all 0.5s;
+  margin: 5px;
+}
+
+.upHover:hover {
+  transform: translateY(-5px);
+}
+
+#contact {
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  text-decoration-color: #ff8200;
+}
+
+td {
+  color: #15233d;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #cecece;
+}
+
+thead {
+  background-color: #15233d;
+}
+
+td {
+  padding: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff8200;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8200;
+}
+
+::selection {
+  background-color: #15233d;
+  color: #ff8200;
+}
+
+@media (max-width: 992px) {
+  #logo {
+    height: 30px;
+  }
+}

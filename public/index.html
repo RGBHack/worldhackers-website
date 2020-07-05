@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/world.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>World Hackers</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <script>
+      AOS.init();
+    </script>
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      data-aos="fade-down"
+    >
+      <a class="navbar-brand" href="#">
+        <img id="logo" src="./assets/logo.svg" height="60" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link nav-item" href="#hackathons" onclick="navmove()"
+            >Hackathons <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-link nav-item" href="#projects" onclick="navmove()"
+            >Projects</a
+          >
+          <a class="nav-link nav-item" href="#team" onclick="navmove()">Team</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="main-top">
+        <object data="./assets/globe2.svg" id="spinner"></object>
+        <h1 data-aos="fade-right">World Hackers</h1>
+        <p data-aos="fade-left">We are an elite hackathon team</p>
+      </div>
+
+      <div id="hackathons">
+        <h1 data-aos="fade-right">Hackathons</h1>
+      </div>
+      <div class="hackathons" data-aos="fade-left">
+        <table>
+          <thead style="font-weight: 700; text-align: center;">
+            <tr class="table-titles">
+              <td>Hackathon</td>
+              <td>Date</td>
+              <td>Venue</td>
+              <td>Description</td>
+            </tr>
+          </thead>
+          <tbody style="text-align: left;">
+            <tr>
+              <td>
+                IncubateIND Innovation Series Hackathon Powered by Microsoft
+              </td>
+              <td>21-22 December, 2019</td>
+              <td>Microsoft Gurgaon</td>
+              <td>3rd Place Win</td>
+            </tr>
+            <tr>
+              <td>Innovacer HackerCamp 2019</td>
+              <td>15-16 December, 2019</td>
+              <td>Innovaccer Noida</td>
+              <td>Top 15</td>
+            </tr>
+            <tr>
+              <td>h@ckGTBIT</td>
+              <td>18-19 January, 2020</td>
+              <td>GTBIT</td>
+              <td>Title Winners</td>
+            </tr>
+            <tr>
+              <td>hackVSIT</td>
+              <td>31 Jan-1 Feb, 2020</td>
+              <td>VIPS</td>
+              <td>VoiceFlow and Azure winners</td>
+            </tr>
+            <tr>
+              <td>iXi Hackathon</td>
+              <td>3-4 Feb, 2020</td>
+              <td>UIncept</td>
+              <td>2nd Place Win</td>
+            </tr>
+            <tr>
+              <td>Solve4Bharat by PanIIT</td>
+              <td>28-29 Feb, 2020</td>
+              <td>IISc Bangalore</td>
+              <td>4th Place Win</td>
+            </tr>
+            <tr>
+              <td>Facebook Augmented Reality Hackathon</td>
+              <td>16 March, 2020</td>
+              <td>Devpost</td>
+              <td>Submitted</td>
+            </tr>
+            <tr>
+              <td>Facebook Messaging Hackathon</td>
+              <td>16 March, 2020</td>
+              <td>Devpost</td>
+              <td>Submitted</td>
+            </tr>
+            <tr>
+              <td>Facebook Artificial Intelligence Hackathon</td>
+              <td>16 March, 2020</td>
+              <td>Devpost</td>
+              <td>Submitted</td>
+            </tr>
+            <tr>
+              <td>MishMash Hackathon by Skillenza</td>
+              <td>31st March, 2020</td>
+              <td>Skillenza</td>
+              <td>Top 10 amongst 7700+ registrants</td>
+            </tr>
+            <tr>
+              <td>CATHacks</td>
+              <td>4-5 April, 2020</td>
+              <td>Devpost</td>
+              <td>Submitted - Favourable reviews by judges</td>
+            </tr>
+            <tr>
+              <td>HackQuarantine</td>
+              <td>21 March-13 April, 2020</td>
+              <td>Devpost</td>
+              <td>Submitted - Favourable reviews by judges and organizers</td>
+            </tr>
+            <tr>
+              <td>HackOn</td>
+              <td>11 April-19 April, 2020</td>
+              <td>Devfolio</td>
+              <td>Best Hack using Google Cloud</td>
+            </tr>
+            <tr>
+              <td>HackInTine</td>
+              <td>1 June-9 June, 2020</td>
+              <td>Precisely</td>
+              <td>Top 5 out of 34 teams</td>
+            </tr>
+            <tr>
+              <td>EarthxHacks</td>
+              <td>June, 2020</td>
+              <td>Devpost</td>
+              <td>Submitted</td>
+            </tr>
+            <tr>
+              <td>Lensathon</td>
+              <td>9 May-6 June, 2020</td>
+              <td>Snapchat, Skillenza</td>
+              <td>Submitted</td>
+            </tr>
+            <tr>
+              <td>Hack the Northeast</td>
+              <td>Jun 8 – 11, 2020</td>
+              <td>Devpost</td>
+              <td>1st Prize in Best Financial Empowerment Hack</td>
+            </tr>
+            <tr>
+              <td>Dishathon</td>
+              <td>Jun 19 - 21, 2020</td>
+              <td>IncubateIND</td>
+              <td>Grand Finalist : Top 10 out of 1000+ Teams</td>
+            </tr>
+            <tr>
+              <td>HAccess</td>
+              <td>June, 2020</td>
+              <td>Devpost</td>
+              <td>Submitted</td>
+            </tr>
+            <tr>
+              <td>ThoughtWorks - The Social Hackathon</td>
+              <td>27th June, 2020</td>
+              <td>Thoughtworks Dare2Complete</td>
+              <td>1st place Winner</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="projects">
+        <h1 data-aos="fade-right">Projects</h1>
+      </div>
+      <div class="projects" id="projects2" data-aos="fade-left"></div>
+
+      <div id="team">
+        <h1 data-aos="fade-right">Team</h1>
+      </div>
+      <div class="team" data-aos="fade-left">
+        <div class="team-item">
+          <img class="team-image" src="./assets/pulkit.png" />
+          <h1>Pulkit Midha</h1>
+          <h3>Student Ambassador @ Unity Technologies</h3>
+          <a target="_blank" href="https://in.linkedin.com/in/pulkit-midha28"
+            ><img class="social" src="./assets/linkedin.png"
+          /></a>
+          <a target="_blank" href="https://twitter.com/midha_pulkit"
+            ><img class="social" src="./assets/twitter.png"
+          /></a>
+        </div>
+        <div class="team-item">
+          <img class="team-image" src="./assets/shivay.png" />
+          <h1>Shivay Lamba</h1>
+          <h3>Production Engineer @ Layer 5</h3>
+          <a target="_blank" href="https://www.linkedin.com/in/shivaylamba"
+            ><img class="social" src="./assets/linkedin.png"
+          /></a>
+          <a target="_blank" href="https://twitter.com/howdevelop"
+            ><img class="social" src="./assets/twitter.png"
+          /></a>
+        </div>
+        <div class="team-item">
+          <img class="team-image" src="./assets/rahul.png" />
+          <h1>Rahul Garg</h1>
+          <h3>Mentor @ Tensorflow</h3>
+          <a target="_blank" href="couldn't find anything"
+            ><img class="social" src="./assets/linkedin.png"
+          /></a>
+          <a target="_blank" href="coudnt find anything"
+            ><img class="social" src="./assets/twitter.png"
+          /></a>
+        </div>
+        <div class="team-item">
+          <img class="team-image" src="./assets/raghav.png" />
+          <h1>Raghav Dhingra</h1>
+          <h3>Web Developer @ Precisely</h3>
+          <a target="_blank" href="https://www.linkedin.com/in/raghav-dhingra/"
+            ><img class="social" src="./assets/linkedin.png"
+          /></a>
+          <a target="_blank" href="https://twitter.com/raghavdhingra15"
+            ><img class="social" src="./assets/twitter.png"
+          /></a>
+        </div>
+      </div>
+
+      <footer style="text-align: center;">
+        <p>Copyright &copy World Hackers 2020</p>
+        <a href="mailto:midhapulkit28@gmail.com" target="_blank">
+          <img src="./assets/email.svg" height="30" class="upHover"
+        /></a>
+        <a href="https://github.com/world-hackers" target="_blank">
+          <img src="./assets/github.png" height="30" class="upHover" />
+        </a>
+      </footer>
+    </div>
+    <script>
+      console.log("fetch below");
+      fetch("https://api.github.com/graphql", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+          Authorization:
+            "Basic cmphd2Vzb21lOjY4Njc3MTBkNWI4MzRmOGViYzZiNmQ2NWIyNmNlMTFjNTg1NmY2ZDI",
+        },
+        body: JSON.stringify({
+          query: `query($queryString: String!) {
+          search(query: $queryString, type: REPOSITORY, first: 10) {
+            repositoryCount
+            edges {
+              node {
+                ... on Repository {
+                  name
+                  description
+                  object(expression: "master") {
+                    ... on Commit {
+                      history {
+                        totalCount
+                      }
+                    }
+                  }
+                  stargazers(first: 100) {
+                    edges {
+                      node {
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }`,
+          variables: { queryString: "org:world-hackers" },
+        }),
+      })
+        .then((r) => r.json())
+        .then((data) => {
+          var repos = data.data.search.edges;
+          for (var i in repos) {
+            var name = repos[i].node.name;
+            var description = repos[i].node.description;
+            var commits = repos[i].node.object.history.totalCount;
+            var stars = repos[i].node.stargazers.edges.length;
+            var url = "https://github.com/world-hackers/" + name;
+            if (description === null) {
+              document.getElementById(
+                "projects2"
+              ).innerHTML += `<div class="project-item"><h1>${name}</h1><p>Commits: ${commits}</p><p>Stars: ${stars}</p><a target="_blank" href="${url}"><img src="./assets/github.png"></a></div>`;
+              console.log("added");
+            } else {
+              document.getElementById(
+                "projects2"
+              ).innerHTML += `<div class="project-item"><h1>${name}</h1><strong><p>${description}</p></strong><p>Commits: ${commits}</p><p>Stars: ${stars}</p><a target="_blank" href="${url}"><img src="./assets/github.png"></a></div>`;
+            }
+          }
+          var x = window.matchMedia("(max-width: 1000px)");
+          navmove = () => {
+            if (matches) {
+              $(".navbar-toggler").click();
+            }
+          };
+        });
+    </script>
+  </body>
+</html>
