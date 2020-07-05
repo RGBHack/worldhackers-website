@@ -343,7 +343,7 @@
           }
           var x = window.matchMedia("(max-width: 1000px)");
           navmove = () => {
-            if (matches) {
+            if (x.matches) {
               $(".navbar-toggler").click();
             }
           };
